@@ -21,6 +21,16 @@ brew "vim"
 brew "tree"
 brew "fzf" 			# https://github.com/junegunn/fzf
 brew "cointop"			# https://github.com/miguelmota/cointop
+brew "tldr"
+brew "ncdu"
+brew "ffmpeg"
+
+# development
+brew "mysql"
+brew "mysql-client"
+brew "overmind"
+brew "redis"
+brew "memcached"
 
 # CouchDB  
 brew "coreutils"
@@ -32,9 +42,9 @@ brew "icu4c"
 
 # pygame
 brew "mercurial"
+brew "sdl_mixer"
 brew "sdl"
 brew "sdl_image" 
-brew "sdl_mixer"
 brew "sdl_ttf" 
 brew "portmidi"
 brew "smpeg"
