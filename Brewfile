@@ -8,8 +8,9 @@ brew "pwgen"
 brew "nmap"
 brew "wget"
 brew "htop"
-brew "geoip"
-brew "ansiweather"
+#brew "geoip"
+#brew "ansiweather"
+#brew "gcc"
 brew "rbenv"
 brew "ruby-build"
 brew "cabextract"
@@ -24,6 +25,9 @@ brew "cointop"			# https://github.com/miguelmota/cointop
 brew "tldr"
 brew "ncdu"
 brew "ffmpeg"
+brew "broot"
+brew "crystal"
+brew "shellcheck"
 
 # development
 brew "mysql"
@@ -49,6 +53,7 @@ brew "sdl_ttf"
 brew "portmidi"
 brew "smpeg"
 
+# software
 cask "font-hack-nerd-font"                     
 cask "gpg-suite"
 cask "iterm2"                                  
@@ -56,7 +61,7 @@ cask "tor-browser"
 cask "zenmate-vpn"
 cask "the-unarchiver"
 cask "whatsapp"
-cask "zoomus"
+cask "zoom"
 cask "sync"
 cask "skitch"
 cask "transmit"
@@ -86,3 +91,14 @@ cask "micro-snitch"
 cask "osxfuse"
 cask "dozer"		# https://github.com/Mortennn/Dozer
 cask "mattermost"
+
+# security
+cask "lulu"		# https://objective-see.com/products/lulu.html
+cask "blockblock"	# https://objective-see.com/products/blockblock.html
+cask "netiquette"	# https://objective-see.com/products/netiquette.html
+
+# writing
+cask "bibdesk"		# https://bibdesk.sourceforge.io/
+cask "macdown"		# https://macdown.uranusjr.com/	
+cask "zettlr"		# https://www.zettlr.com/download/macos
+cask "basictex"		# https://www.tug.org/mactex/morepackages.html"
