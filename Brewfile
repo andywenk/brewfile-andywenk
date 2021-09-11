@@ -111,3 +111,12 @@ cask "bibdesk"		# https://bibdesk.sourceforge.io/
 cask "macdown"		# https://macdown.uranusjr.com/	
 cask "zettlr"		# https://www.zettlr.com/download/macos
 cask "basictex"		# https://www.tug.org/mactex/morepackages.html"
+
+# K8s
+cask 'lens'		# https://k8slens.dev/
+brew 'k3d'		# https://k3d.io/
+cask 'docker'		# https://www.docker.com/products/docker-desktop
+brew "helm"		# https://helm.sh
+
+# Hugo
+brew 'hugo'		# https://gohugo.io/	
