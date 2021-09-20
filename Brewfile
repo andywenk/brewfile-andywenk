@@ -27,8 +27,8 @@ brew "crystal"
 brew "shellcheck"
 
 # development
-brew "mysql"
-brew "mysql-client"
+#brew "mysql"
+#brew "mysql-client"
 brew "overmind"
 brew "redis"
 brew "memcached"
@@ -56,59 +56,78 @@ brew "icu4c"
 
 # software
 cask "font-hack-nerd-font"                     
-cask "gpg-suite"
+# cask "gpg-suite"
 cask "iterm2"                                  
-cask "tor-browser"
+#cask "tor-browser"
 cask "zenmate-vpn"
 cask "the-unarchiver"
-cask "whatsapp"
+#cask "whatsapp"
 cask "zoom"
-cask "sync"
-cask "skitch"
-cask "transmit"
-cask "cakebrew"
-cask "owasp-zap"
-cask "postman"
-cask "teamviewer"
+# cask "sync"
+# cask "skitch"
+#cask "transmit"
+# cask "cakebrew"
+# cask "owasp-zap"
+# cask "postman"
+#cask "teamviewer"
 cask "visual-studio-code"
-cask "carbon-copy-cloner"
-cask "deluge"
-cask "vlc"
+# cask "carbon-copy-cloner"
+#cask "deluge"
+#cask "vlc"
 cask "handbrake"
-cask "onyx"      		# https://www.titanium-software.fr/en/onyx.html
-cask "kindle"
-cask "bitmessage"		# https://bitmessage.org/wiki/Main_Page
-cask "gemini"			# https://macpaw.com/gemini
-cask "deepl"			# https://www.deepl.com/translator	
+# cask "onyx"      		# https://www.titanium-software.fr/en/onyx.html
+#cask "kindle"
+# cask "bitmessage"		# https://bitmessage.org/wiki/Main_Page
+# cask "gemini"			# https://macpaw.com/gemini
+# cask "deepl"			# https://www.deepl.com/translator	
 cask "github"
-cask "signal"
+# cask "signal"
 cask "java"
 cask "telegram"
-#cask "anaconda"
+# cask "anaconda"
 cask "itsycal"
-cask "rcloneosx"
-cask "rsyncosx"
+# cask "rcloneosx"
+# cask "rsyncosx"
 cask "micro-snitch"
 cask "osxfuse"
-cask "dozer"			# https://github.com/Mortennn/Dozer
 cask "mattermost"
-cask "inkscape"
-cask "telegram"
+#cask "inkscape"
 cask "evernote"
 #cask "freac"			# https://www.freac.org/
 #cask "dbeaver-community"	# https://dbeaver.io/	
 cask "appzapper" 		# https://www.appzapper.com/
 cask "wifi-explorer"		# https://www.intuitibits.com/products/wifi-explorer/				
+cask "1password-beta"		# https://1password.com/
+#cask "bettertouchtool"		# https://folivora.ai/
+#cask "brave-browser"		# https://brave.com
+#cask "cryptomator"		# https://cryptomator.org/
+#cask "devonthink"		# https://www.devontechnologies.com/apps/devonthink/	
+#cask "firefox"			# https://firefox.com
+#cask "wondershare-filmora"	#
+#cask "spotify"			#
+#cask "licecap"			#
+#cask "ledger-live"		#
+#cask "nextcloud"		#
+#cask "tableplus"		#
+#cask "moneymoney"		#
+#cask "arq"			#
+#cask "path-finder"		#
+#cask "vyprvpn"			#
+#cask "syncthing"		# https://syncthing.net/
+#cask "miro"			# https://miro.com/
+#cask "viscosity"		# 
+#cask "zwift"			#
+cask "hiddenbar"		# https://github.com/dwarvesf/hidden
 
 # security
 #cask "lulu"		# https://objective-see.com/products/lulu.html
 #cask "blockblock"	# https://objective-see.com/products/blockblock.html
 #cask "netiquette"	# https://objective-see.com/products/netiquette.html
-cask "wireshark"	# https://www.wireshark.org/ | https://gitlab.com/wireshark/wireshark/wikis/
+#cask "wireshark"	# https://www.wireshark.org/ | https://gitlab.com/wireshark/wireshark/wikis/
 
 # writing
 cask "bibdesk"		# https://bibdesk.sourceforge.io/
-cask "macdown"		# https://macdown.uranusjr.com/	
+#cask "macdown"		# https://macdown.uranusjr.com/	
 cask "zettlr"		# https://www.zettlr.com/download/macos
 cask "basictex"		# https://www.tug.org/mactex/morepackages.html"
 
