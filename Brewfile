@@ -6,7 +6,7 @@
 
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "heroku/brew"
+#tap "heroku/brew"
 tap "twilio/brew"
 #tap "elastic/tap"			        # https://www.elastic.co/guide/en/elasticsearch/reference/7.13/brew.html
 cask_args appdir: "/Applications"
@@ -74,6 +74,9 @@ cask "alfred"			                # https://www.alfredapp.com/
 #cask "cheatsheet"		              	# https://www.mediaatelier.com/CheatSheet/
 #cask "ngrok"					# https://dashboard.ngrok.com/get-started/setup	
 #cask "wkhtmltopdf"				# https://wkhtmltopdf.org/
+#cask "basecamp"				# https://basecamp.com/
+cask "commander-one"				# https://mac.eltima.com/file-manager.html
+cask "keyboard-maestro"				# https://www.keyboardmaestro.com/main/
 
 # ~~~~~~~~~ Messenger ~~~~~~~~~ 
 
@@ -81,8 +84,8 @@ cask "alfred"			                # https://www.alfredapp.com/
 #cask "zoom"
 #cask "bitmessage"		              	# https://bitmessage.org/wiki/Main_Page
 #cask "teamviewer"
-#cask "signal"
-#cask "telegram"
+cask "signal"
+cask "telegram"
 #cask "mattermost"
 #cask "sync"                        		# https://www.sync.com/
 #cask "discord"			                # https://discord.com/
@@ -106,6 +109,10 @@ cask "obsidian"				        # https://obsidian.md/
 #cask "moneymoney"		              	# https://moneymoney-app.com/
 #cask "miro"			                # https://miro.com/
 cask "the-archive"				# https://zettelkasten.de/the-archive/		
+#cask "notion"					# https://notion.so
+cask "languagetool"				# https://languagetool.org
+cask "scrivener"				# https://www.literatureandlatte.com	
+cask "skim"					# https://sourceforge.net/projects/skim-app/
 
 # ~~~~~~~~~ Design & Drawing ~~~~~~~~~
 
@@ -116,6 +123,8 @@ cask "the-archive"				# https://zettelkasten.de/the-archive/
 cask "inkscape"
 #brew "imageoptim-cli"				# https://github.com/JamieMason/ImageOptim-CLI
 cask "imageoptim"				# https://imageoptim.com/mac
+cask "gimp"					# https://www.gimp.org/
+cask "affinity-photo"				# https://affinity.serif.com/en-us/photo/
 
 # ~~~~~~~~~ Data Management ~~~~~~~~~
 
@@ -128,7 +137,9 @@ cask "cyberduck"			        # https://cyberduck.io/
 #cask "syncthing"		                # https://syncthing.net/
 #cask "nextcloud"
 #cask "arq"			                # https://www.arqbackup.com/
-cask "path-finder"
+#cask "path-finder"
+cask "google-earth-pro"				# https://www.google.com/earth/versions/#earth-pro
+cask "xnviewmp"					# https://www.xnview.com/en/xnviewmp/
 
 # ~~~~~~~~~ Video ~~~~~~~~~
 
@@ -243,8 +254,14 @@ cask "postbird"					# https://github.com/Paxa/postbird
 
 #brew 'apache-spark'		            	# https://spark.apache.org/
 #brew 'hadoop'			                # for pyspqrk
+<<<<<<< HEAD
 #brew 'jupyterlab'
 #brew 'jython'                   # https://www.jython.org
+||||||| parent of efa5ad0 (update software)
+=======
+#brew "tensorflow"				# https://www.tensorflow.org 
+cask "anaconda"					# https://anaconda.org
+>>>>>>> efa5ad0 (update software)
 
 # ~~~~~~~~~ AWS ~~~~~~~~~
 
