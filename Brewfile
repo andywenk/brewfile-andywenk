@@ -19,10 +19,11 @@ brew "pwgen"
 brew "nmap"
 brew "wget"
 brew "htop"
-i#brew "imagemagick"
+brew "imagemagick"
 cask "iterm2"
 cask "the-unarchiver"
-#brew "pandoc"
+brew "pandoc"
+cask "basictex"
 brew "vim"
 brew "tree"
 #brew "rclone"
@@ -62,7 +63,7 @@ cask "1password-cli"
 #cask "rcloneosx"
 #cask "rsyncosx"
 #brew "cabextract"
-cask "evernote"
+cask "raindropio"				# https://raindrop.io	
 cask "bettertouchtool"		          	# https://folivora.ai/
 cask "skitch"
 #cask "licecap"			                # https://www.cockos.com/licecap/
@@ -137,7 +138,7 @@ cask "cyberduck"			        # https://cyberduck.io/
 #cask "syncthing"		                # https://syncthing.net/
 #cask "nextcloud"
 #cask "arq"			                # https://www.arqbackup.com/
-#cask "path-finder"
+cask "path-finder"
 cask "google-earth-pro"				# https://www.google.com/earth/versions/#earth-pro
 cask "xnviewmp"					# https://www.xnview.com/en/xnviewmp/
 
@@ -254,14 +255,11 @@ cask "postbird"					# https://github.com/Paxa/postbird
 
 #brew 'apache-spark'		            	# https://spark.apache.org/
 #brew 'hadoop'			                # for pyspqrk
-<<<<<<< HEAD
 #brew 'jupyterlab'
-#brew 'jython'                   # https://www.jython.org
-||||||| parent of efa5ad0 (update software)
-=======
+#brew 'jython'                   		# https://www.jython.org
 #brew "tensorflow"				# https://www.tensorflow.org 
-cask "anaconda"					# https://anaconda.org
->>>>>>> efa5ad0 (update software)
+#cask "anaconda"					# https://anaconda.org
+#cask "miniconda"				# https://repo.anaconda.com/miniconda
 
 # ~~~~~~~~~ AWS ~~~~~~~~~
 
