@@ -7,7 +7,7 @@
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 #tap "heroku/brew"
-tap "twilio/brew"
+#tap "twilio/brew"
 #tap "elastic/tap"			        # https://www.elastic.co/guide/en/elasticsearch/reference/7.13/brew.html
 cask_args appdir: "/Applications"
 
@@ -22,27 +22,24 @@ brew "htop"
 brew "imagemagick"
 cask "iterm2"
 cask "the-unarchiver"
-brew "pandoc"
-cask "basictex"
 brew "vim"
 brew "tree"
 #brew "rclone"
 #brew "rsync"
-#brew "tldr"
-#brew "ncdu"
-#brew "ffmpeg"
-#brew "broot"
-#brew "shellcheck"
+#brew "tldr"					# https://tldr.sh/
+#brew "ncdu"					# https://dev.yorhel.nl/ncdu
+brew "ffmpeg"					# https://ffmpeg.org/	
+brew "broot"					# https://dystroy.org/broot/
+#brew "shellcheck"				# https://www.shellcheck.net/
 #brew "mmv"				        # https://github.com/rrthomas/mmv
 #brew "mkcert"                       		# https://github.com/FiloSottile/mkcert
 #brew "rmlint"			                # https://github.com/sahib/rmlint
 #brew "irssi"			                # https://irssi.orgq
 #brew "asciinema"				# https://asciinema.org/
-brew "tmux"
+brew "tmux"					# https://github.com/tmux/tmux/wiki
 #brew "pre-commit"				# https://pre-commit.com/
 #cask "appflowy"				# https://github.com/AppFlowy-IO/appflowy
 brew "gh"					# https://cli.github.com/
-cask "google-drive"				# https://www.google.com/drive/
 cask "mountain-duck"				# https://mountainduck.io/
 brew "b2-tools"					# https://www.backblaze.com/b2/docs/quick_command_line.html		
 
@@ -53,13 +50,13 @@ brew "b2-tools"					# https://www.backblaze.com/b2/docs/quick_command_line.html
 # ~~~~~~~~~ Tools ~~~~~~~~~ 
 
 cask "caffeine"
-#cask "1password-beta"		          	# https://1password.com/
+cask "1password-beta"		          	# https://1password.com/
 cask "1password-cli"
 #cask "gpg-suite"
 #cask "cakebrew"
 #cask "kindle"
 #cask "gemini"			                # https://macpaw.com/gemini
-#cask "deepl"			                # https://www.deepl.com/translator	
+cask "deepl"			                # https://www.deepl.com/translator	
 #cask "rcloneosx"
 #cask "rsyncosx"
 #brew "cabextract"
@@ -67,8 +64,8 @@ cask "raindropio"				# https://raindrop.io
 cask "bettertouchtool"		          	# https://folivora.ai/
 cask "skitch"
 #cask "licecap"			                # https://www.cockos.com/licecap/
-#cask "hiddenbar"		                # https://github.com/dwarvesf/hidden
-cask "macfuse"			                # https://osxfuse.github.io/
+cask "hiddenbar"		                # https://github.com/dwarvesf/hidden
+#cask "macfuse"			                # https://osxfuse.github.io/
 cask "alfred"			                # https://www.alfredapp.com/	
 #cask "meetingbar"		                # https://meetingbar.onrender.com
 #cask "hazel"			                # https://www.noodlesoft.com/
@@ -77,24 +74,26 @@ cask "alfred"			                # https://www.alfredapp.com/
 #cask "wkhtmltopdf"				# https://wkhtmltopdf.org/
 #cask "basecamp"				# https://basecamp.com/
 cask "commander-one"				# https://mac.eltima.com/file-manager.html
-cask "keyboard-maestro"				# https://www.keyboardmaestro.com/main/
+#cask "keyboard-maestro"				# https://www.keyboardmaestro.com/main/
+cask "protonvpn"				# https://proton.me
+cask "slack"					# https://slack.com
 
 # ~~~~~~~~~ Messenger ~~~~~~~~~ 
 
-#cask "whatsapp"
-#cask "zoom"
+cask "whatsapp"
+cask "zoom"
 #cask "bitmessage"		              	# https://bitmessage.org/wiki/Main_Page
 #cask "teamviewer"
 cask "signal"
-cask "telegram"
+#cask "telegram"
 #cask "mattermost"
 #cask "sync"                        		# https://www.sync.com/
 #cask "discord"			                # https://discord.com/
 
 # ~~~~~~~~~ Browser ~~~~~~~~~
 
-#cask "tor-browser"
-cask 'firefox'
+cask "tor-browser"				# https://www.torproject.org/download/
+cask 'firefox'					# https://www.mozilla.org/de/firefox/new/
 #cask 'google-chrome'
 cask "brave-browser"		            	# https://brave.com
 
@@ -103,17 +102,18 @@ cask "brave-browser"		            	# https://brave.com
 #cask "appflowy"			        # https://github.com/AppFlowy-IO/appflowy
 cask "devonthink"		                # https://www.devontechnologies.com/apps/devonthink/
 #cask "bibdesk"			                # https://bibdesk.sourceforge.io/
-cask "macdown"			                # https://macdown.uranusjr.com/	
+#cask "macdown"			                # https://macdown.uranusjr.com/	
 cask "zettlr"			                # https://www.zettlr.com/download/macos
-#cask "basictex"		                # https://www.tug.org/mactex/morepackages.html"
+brew "pandoc"					# https://pandoc.org
+cask "basictex"			                # https://www.tug.org/mactex/morepackages.html"
 cask "obsidian"				        # https://obsidian.md/
 #cask "moneymoney"		              	# https://moneymoney-app.com/
-#cask "miro"			                # https://miro.com/
-cask "the-archive"				# https://zettelkasten.de/the-archive/		
+cask "miro"			                # https://miro.com/
+#cask "the-archive"				# https://zettelkasten.de/the-archive/		
 #cask "notion"					# https://notion.so
 cask "languagetool"				# https://languagetool.org
 cask "scrivener"				# https://www.literatureandlatte.com	
-cask "skim"					# https://sourceforge.net/projects/skim-app/
+#cask "skim"					# https://sourceforge.net/projects/skim-app/
 
 # ~~~~~~~~~ Design & Drawing ~~~~~~~~~
 
@@ -129,7 +129,7 @@ cask "affinity-photo"				# https://affinity.serif.com/en-us/photo/
 
 # ~~~~~~~~~ Data Management ~~~~~~~~~
 
-cask "google-drive"			        # https://www.google.com/drive/
+#cask "google-drive"			        # https://www.google.com/drive/
 cask "mountain-duck"			        # https://mountainduck.io/
 cask "cyberduck"			        # https://cyberduck.io/
 #cask "transmit"
@@ -139,12 +139,12 @@ cask "cyberduck"			        # https://cyberduck.io/
 #cask "nextcloud"
 #cask "arq"			                # https://www.arqbackup.com/
 cask "path-finder"
-cask "google-earth-pro"				# https://www.google.com/earth/versions/#earth-pro
-cask "xnviewmp"					# https://www.xnview.com/en/xnviewmp/
+#cask "google-earth-pro"			# https://www.google.com/earth/versions/#earth-pro
+#cask "xnviewmp"				# https://www.xnview.com/en/xnviewmp/
 
 # ~~~~~~~~~ Video ~~~~~~~~~
 
-#cask "deluge"			                # https://deluge-torrent.org/
+cask "deluge"			                # https://deluge-torrent.org/
 cask "vlc"			                # https://www.videolan.org/vlc/
 #cask "handbrake"		                # https://handbrake.fr/
 #cask "wondershare-filmora"	        	# https://filmora.wondershare.com/
@@ -153,6 +153,7 @@ cask "vlc"			                # https://www.videolan.org/vlc/
 
 #cask "spotify"
 #cask "freac"			                # https://www.freac.org/
+cask "audacity"					# https://www.audacityteam.org/
 
 # ~~~~~~~~~ Blockchain & Crypto ~~~~~~~~~
 
@@ -171,7 +172,8 @@ cask "visual-studio-code"	          	# https://code.visualstudio.com/
 
 brew "rbenv"
 brew "ruby-build"
-#brew "rust"
+brew "rust"
+brew "rustup-init"
 #brew "pyenv"				        # https://wilsonmar.github.io/pyenv/
 #brew "pyenv-virtualenv"			
 #cask "anaconda"
@@ -181,17 +183,20 @@ brew "ruby-build"
 #brew "upx"			                # https://upx.github.io/
 #brew 'hugo'			                # https://gohugo.io/	
 #brew "java"
-cask 'adoptopenjdk8'		            	# https://maelfabien.github.io/bigdata/SparkInstall/#
-#brew "npm"
+#cask 'adoptopenjdk8'		            	# https://maelfabien.github.io/bigdata/SparkInstall/#
+cask "temurin8"
+brew "node"
+brew "node-sass"
+brew "npm"
 #brew "crystal"
 #brew 'scala'
-#brew 'php'
+brew 'php'
 
 # ~~~~~~~~~ K8s ~~~~~~~~~
 
 #cask 'lens'			                # https://k8slens.dev/
 #brew 'k3d'			                # https://k3d.io/
-#cask 'docker'			                # https://www.docker.com/products/docker-desktop
+cask 'docker'			                # https://www.docker.com/products/docker-desktop
 #brew "helm"			                # https://helm.sh
 
 # ~~~~~~~~~ Software Development Helper ~~~~~~~~~
@@ -245,11 +250,11 @@ cask "postman"			                # https://www.postman.com/
 
 # ~~~~~~~~~ DB Tools ~~~~~~~~~
 
-cask "sequel-pro"			        # https://sequelpro.com/
-cask "sqlpro-studio"			        # https://www.sqlprostudio.com/	
+#cask "sequel-pro"			        # https://sequelpro.com/
+#cask "sqlpro-studio"			        # https://www.sqlprostudio.com/	
 #cask "dbeaver-community"	          	# https://dbeaver.io/	
-cask "tableplus"
-cask "postbird"					# https://github.com/Paxa/postbird
+#cask "tableplus"
+#cask "postbird"					# https://github.com/Paxa/postbird
 
 # ~~~~~~~~~ Data Science ~~~~~~~~~
 
@@ -268,10 +273,10 @@ brew "awscli" 				        # https://aws.amazon.com/cli/
 # ~~~~~~~~~ Security ~~~~~~~~~
 
 #cask "owasp-zap"		                # https://www.zaproxy.org/
-#cask "lulu"                    # https://objective-see.com/products/lulu.html
-#cask "blockblock"              # https://objective-see.com/products/blockblock.html
-#cask "netiquette"              # https://objective-see.com/products/netiquette.html
-#cask "wireshark"               # https://www.wireshark.org/ | https://gitlab.com/wireshark/wireshark/wikis/
+#cask "lulu"                    		# https://objective-see.com/products/lulu.html
+#cask "blockblock"              		# https://objective-see.com/products/blockblock.html
+#cask "netiquette"              		# https://objective-see.com/products/netiquette.html
+#cask "wireshark"               		# https://www.wireshark.org/ | https://gitlab.com/wireshark/wireshark/wikis/
 
 # ~~~~~~~~~ Maintenance Software ~~~~~~~~~
 
