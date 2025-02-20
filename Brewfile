@@ -22,6 +22,7 @@ brew "qrtool"
 # ~~~~~~~~~ Unix tools ~~~~~~~~~ 
 
 brew "git"
+brew "mas-cli/tap/mas"
 brew "gzip"
 brew "p7zip"				        # https://github.com/jinfeihan57/p7zip
 brew "pwgen"
