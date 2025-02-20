@@ -21,6 +21,7 @@ brew "qrtool"
 
 # ~~~~~~~~~ Unix tools ~~~~~~~~~ 
 
+brew "git"
 brew "gzip"
 brew "p7zip"				        # https://github.com/jinfeihan57/p7zip
 brew "pwgen"
